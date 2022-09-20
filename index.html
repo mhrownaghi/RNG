@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Number Generating Project - codementor.io</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <h1>Random Number Generating Project</h1>
+  <hr>
+  <form action="src/app.php" method="post">
+    <fieldset>
+      <div class="form-group">
+        <label for="num">number of dices:</label>
+        <input type="number" id="num" name="num" min="1" value="1">
+      </div>
+      <div class="form-group">
+        <label for="dice-type">type of dices:</label>        
+        <select name="dice-type" id="dice-type">
+          <option value="Dice4" selected>Dice4</option>
+          <option value="Dice6">Dice6</option>
+          <option value="Dice8">Dice8</option>
+          <option value="Dice10">Dice10</option>
+          <option value="Dice12">Dice12</option>
+        </select>
+      </div>
+    </fieldset>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>
